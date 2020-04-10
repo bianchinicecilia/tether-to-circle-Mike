@@ -2,17 +2,103 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>tether to circle - mike</title>
-  <link rel="stylesheet" href="./style.css">
-
+  <title>CodePen - tether to circle</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" href="assets/favicon.svg" sizes="any" type="image/svg+xml">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="container">
-  <div class="outer-circle">Ttest test test test test test</div>
-  <div class="inner-circle"></div>
-</div>
-<!-- partial -->
+  <div class="header">
+    <div class="header-left">
+        <img class="logo" src="assets/logo2.png">
+    </div>
+    <div class="header-right">
+      <img class="animated-gif" src="assets/frigia_04.gif">
+    </div>
+  </div>
+
+  <div id="container">
+    <div class="sub-container">
+      <div id="inner-circle" class="circle">
+        <div class="bigCircle">
+          <div class="bigCircle-content">
+            <div class="title">
+              Consulenze gratuite per donne in gravidanza
+              ai tempi del covid-19
+            </div>
+            <!--<div class="title">
+              CONSULENZE GRATUITE PER DONNE IN GRAVIDANZA
+              AI TEMPI DEL COVID-19
+            </div>-->
+            <div class="copy">
+              Cosa succede in gravidanza? La mamma prepara il bambino per il mondo che verrà.
+              E proprio ora ci si presentano tante domande e paure a proposito del mondo che sarà.<br><br>
+
+              In un momento così delicato fa differenza creare uno spazio protetto per le donne incinte.
+              L’angolorotondo sarà uno spazio educativo e pedagogico dedicato ai genitori:
+              ai loro tempi, ai loro dubbi, alle loro paure ed emozioni.<br><br>
+
+              L’utero è di per se una stanza, in cui al bambino arrivano stimoli dall’esterno, come voci,
+              luci e suoni. Questi sono tutti filtrati dal corpo della mamma.<br><br>
+
+              Nel nostro spazio virtuale, impareremo a scoprire ogni angolo rotondo della stanza
+              del bambino; a conoscerne i rumori, i colori, i sapori.
+              Così da prepararne una simile per accoglierlo al meglio nel nostro mondo che sarà,
+              nonché utero dell’umanità.<br>
+              <div class="fontawesome"><i class="fa fa-arrow-down fontawesome" aria-hidden="true"></i></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="outer-circle" class="circle"></div>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+        <div class="heading">Chi sono?</div>
+        <div class="copyModal">
+        Un’Educatrice Professionale e una Pedagogista, specializzata in Educazione pre-perinatale.
+        </div><br>
+        <div class="heading">In poche parole</div>
+        <div class="copyModal">
+        L’Educatore Professionale è l’operatore socio-sanitario che attua specifici progetti educativi e riabilitativi,
+        rivolti ad uno sviluppo equilibrato della personalità dei soggetti in difficoltà.<br><br>
+
+        Il Pedagogista è un professionista dell’educazione dell’uomo nella sua interezza,
+        ovvero lungo l’intera vita (life-long-learning).<br><br>
+
+        L’Educazione pre-perinatale è un’educazione rivolta ai genitori
+        che ha lo scopo di renderli consapevoli dell’importanza della gravidanza,
+        del parto e dei primi anni di vita del bambino.<br><br>
+        <div class="portrait">
+            <img class="img" src="assets/portrait.jpg">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+  <div class="footer">
+    <div class="footerLeft">
+      <div class="footerItem"><button id="myBtn">chi è Agnese?</button></div>
+    </div>
+    <div class="footerCenter">
+      <div class="footerItem colloquio"><a href="mailto:cecchini.agnese@gmail.com?Subject=Ciao!" target="_top">colloquio conoscitivo</a></div>
+      <div class="footerItem prenota"><a href="tel:+447436949815"target="_blank">prenota un angolo</a></div>
+    </div>
+    <div class="footerRight">
+      <div class="footerItem social fb"><a href="https://www.facebook.com/Angolorotondo-109938470672114/?modal=admin_todo_tour" target="_blank">fb</a></div>
+      <div class="footerItem social ig"><a href="https://www.instagram.com/angolorotondo/" target="_blank">ig</a></div>
+      <div class="footerItem medium"><a href="https://medium.com/@cecchini.agnese" target="_blank">medium</a></div>
+    </div>
+  </div>
+
   <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.6/gsap.min.js'></script><script  src="./script.js"></script>
 
 </body>
